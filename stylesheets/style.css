@@ -1,10 +1,10 @@
 /* nhurt */
 
 body{
-	background-color: #444;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	background-image: url('images/subtle_zebra_3d.png');
+	background-color: white;
+	background-image: url('../images/subtle_zebra_3d.png');
 	background-repeat: repeat-x repeat-y;
 }
 
@@ -117,4 +117,8 @@ img.about_me {
 	display: block;
 	font-style: italic;
 	font-size: .8em;
+}
+
+#content a.email {
+  font-weight: 700;
 }
