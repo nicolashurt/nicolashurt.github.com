@@ -10,7 +10,7 @@ body{
 
 #wrapper{
 	background-color: white;
-	color: black;
+	color: #111;
 	width: 800px;
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -18,10 +18,8 @@ body{
 	padding: 20px;
 		
 	box-shadow: 7px 7px 8px #ccc;
-  /*
-  -webkit-box-shadow: 7px 7px 8px #222;
-  -moz-box-shadow: 7px 7px 8px #222;
-  */
+  -webkit-box-shadow: 7px 7px 8px #ccc;
+  -moz-box-shadow: 7px 7px 8px #ccc;
 }
 
 #header {
@@ -98,14 +96,14 @@ img.about_me {
   border: 1px solid #ddd;
   box-shadow: 0 1px 5px rgba(0,0,0,.15);
   
-	-webkit-transform: rotate(-1deg) translate(0, -2px);
-	-moz-transform: rotate(-1deg) translate(0, -2px);
-	-o-transform: rotate(-1deg) translate(0, -2px);
+	-webkit-transform: rotate(-1.2deg) translate(0, -2px);
+	-moz-transform: rotate(-1.2deg) translate(0, -2px);
+	-o-transform: rotate(-1.2deg) translate(0, -2px);
 }
 
 #content a{
 	text-decoration: none;
-	color: black;
+	color: #2E7034;
 }
 
 #content a:hover{
@@ -128,4 +126,9 @@ img.about_me {
 
 #content a.email {
   font-weight: bold;
+  color: inherit;
+}
+
+.about {
+  text-align:justify;
 }
