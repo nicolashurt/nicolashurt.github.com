@@ -138,9 +138,11 @@ img.about_me {
   text-align:justify;
 }
 
-canvas.game{
+.game_wrapper{
   margin-top: 25px;
   border: 1px solid #eee;
+  width: 501px;
+  height: 501px;
   box-shadow: 3px 3px 2px #ddd;
   -webkit-box-shadow: 3px 3px 2px #ddd;
   -moz-box-shadow: 3px 3px 2px #ddd;
