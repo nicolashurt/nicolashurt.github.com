@@ -137,3 +137,11 @@ img.about_me {
 .about {
   text-align:justify;
 }
+
+canvas#game{
+  margin-top: 25px;
+  border: 1px solid #eee;
+  box-shadow: 3px 3px 2px #ddd;
+  -webkit-box-shadow: 3px 3px 2px #ddd;
+  -moz-box-shadow: 3px 3px 2px #ddd;
+}
