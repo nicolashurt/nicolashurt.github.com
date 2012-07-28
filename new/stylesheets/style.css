@@ -31,7 +31,7 @@ body{
 	font-family: 'Monoton', sans-serif;
 	color: #c00000;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 #header h1{
@@ -74,6 +74,10 @@ h1 a{
 #menu li span {
   display: block;
   margin-top: 5px;
+}
+
+#menu path{
+  fill: green;
 }
 
 #viewbox {
