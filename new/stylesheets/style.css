@@ -1,7 +1,7 @@
 /* nhurt */
 
 body{
-	font-family: 'Lato', sans-serif;
+	font-family: sans-serif;
 	font-weight: 400;
 	background-color: #F4F4F4;
 	/*background-image: url('../images/subtle_zebra_3d.png');*/
@@ -31,7 +31,7 @@ body{
 	font-family: 'Monoton', sans-serif;
 	color: #c00000;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 #header h1{
@@ -51,11 +51,29 @@ h1 a{
   text-align: center;
 }
 
+#menu ul {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+	height: 90px;
+}
+
+#menu li {
+	display: inline-block;
+}
+
 #menu embed{
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 80px;
-  width: 80px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 75px;
+  width: 75px;
+}
+
+#menu li span {
+  display: block;
+  margin-top: 5px;
 }
 
 #viewbox {
