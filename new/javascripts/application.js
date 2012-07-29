@@ -1,8 +1,10 @@
 $(function(){
-  $('a').hover(function(){
+  $('#menu a').hover(function(){
+    $(this).css("color", "#000");
     $($('object', $(this))[0].contentDocument.documentElement).css("fill", "#000").css("cursor", "pointer"); 
   }, function(){
-    $($('object', $(this))[0].contentDocument.documentElement).css("fill", "#bbb"); 
+    $(this).css("color", "#aaa");
+    $($('object', $(this))[0].contentDocument.documentElement).css("fill", "#aaa"); 
   });
 });
 
@@ -10,6 +12,6 @@ $(window).load(function(){
   $('object').each(function(ind, obj){  
     //$(obj).hover(function(){ console.log("hoverin")}, function(){$(obj).removeClass("black")});
     
-    $(obj.contentDocument.documentElement).css("fill", "#bbb"); 
+    $(obj.contentDocument.documentElement).css("fill", "#aaa"); 
   });
 })

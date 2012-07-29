@@ -64,8 +64,9 @@ h1 a{
 	display: inline-block;
 }
 
- {
-
+#menu a{
+  text-decoration: none;
+  color: #aaa;
 }
 
 #menu object{
@@ -85,5 +86,5 @@ h1 a{
   width: 576px;
   height: 384px;
   border: 7px solid #111;
-  margin: 50px auto;
+  margin: 40px auto;
 }
