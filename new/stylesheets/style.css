@@ -58,11 +58,13 @@ h1 a{
 #menu {
   padding-top: 15px;
   text-align: center;
-  background-color: #F4F4F4;
   height: 110px;
+  /*
+  background-color: #F4F4F4;
   box-shadow: 3px 3px 3px #ccc;
   -webkit-box-shadow: 3px 3px 3px #ccc;
   -moz-box-shadow: 3px 3px 3px #ccc;
+  */
 }
 
 #menu ul {
@@ -81,6 +83,10 @@ h1 a{
 #menu a{
   text-decoration: none;
   color: #aaa;
+}
+
+#menu a span{
+  display: none;
 }
 
 #menu a:hover{
