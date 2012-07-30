@@ -12,4 +12,6 @@ $(function(){
     }, function(){
       $('#menu a:not(.current)').find("span").fadeTo("fast",0);
     })
+    
+    
 });
