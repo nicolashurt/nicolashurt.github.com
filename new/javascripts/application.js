@@ -8,8 +8,8 @@ $(function(){
     $('#menu a:not(.current)').find("span").hide();
     
     $('#menu').hover(function(){
-      $('#menu a:not(.current)').find("span").fadeIn("slow");
+      $('#menu a:not(.current)').find("span").fadeIn();
     }, function(){
-      $('#menu a:not(.current)').find("span").fadeOut("slow");
+      $('#menu a:not(.current)').find("span").fadeOut();
     })
 });
