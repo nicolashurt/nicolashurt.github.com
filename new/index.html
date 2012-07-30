@@ -12,6 +12,7 @@
 		  $(function(){
 		    $("#galleria").galleria({
             autoplay: 4000 
+            //http://galleria.io/docs/options/
         });
         
 		    Galleria.loadTheme('javascripts/classic/galleria.classic.min.js');
@@ -23,11 +24,8 @@
         $('#content').fadeTo(0,0);
         
         $('#header h1').fadeTo(2000,1, function(){
-          $('#menu').fadeTo(1000, 1, function(){
-            $('#content').fadeTo(500,1);
-            setTimeout(function(){
-              $('#menu a.current').find("span").fadeTo(3000,1);
-            },2000);
+          $('#menu').fadeTo(2000, 1, function(){
+            $('#content').fadeTo(2000,1);
           });
         });
 		  })
