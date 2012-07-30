@@ -105,7 +105,7 @@ svg.menu_icon {
 svg.menu_icon:hover {
   fill: #111;
   width: 76px;
-  margin-top: 0;
+  margin-top: 2px;
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 0;
