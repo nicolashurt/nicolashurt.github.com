@@ -23,8 +23,8 @@
         $('#content').fadeTo(0,0);
         
         $('#header h1').fadeTo(2000,1, function(){
-          $('#content').fadeTo(500,1);
           $('#menu').fadeTo(1000, 1, function(){
+            $('#content').fadeTo(500,1);
             setTimeout(function(){
               $('#menu a.current').find("span").fadeTo(3000,1);
             },2000);
