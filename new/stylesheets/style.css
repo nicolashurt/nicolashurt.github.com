@@ -117,7 +117,7 @@ svg.menu_icon:hover {
 #viewbox {
   width: 576px;
   height: 384px;
-  border: 7px solid #111;
+  border: 7px solid #000000;
   margin: 40px auto;
 }
 
@@ -143,7 +143,7 @@ svg.menu_icon:hover {
 
 .description iframe{
   margin-left: 100px;
-  border: 7px solid #111;
+  border: 7px solid #000000;
 }
 
 .description svg{
