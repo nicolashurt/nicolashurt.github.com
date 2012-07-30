@@ -147,6 +147,10 @@ svg.menu_icon:hover {
   border: 7px solid #111;
 }
 
+.description svg{
+  width: 90px;
+}
+
 .description svg, .description g, .description path{
   fill: #999;
 }
