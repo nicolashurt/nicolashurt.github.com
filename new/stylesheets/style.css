@@ -76,7 +76,7 @@ h1 a{
 }
 
 #menu a:hover{
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   color: #000;
 }
 
@@ -122,6 +122,10 @@ svg.menu_icon:hover {
   position: relative;
   width: 80px;
   text-align: center;
+}
+
+.description iframe{
+  margin-left: 100px;
 }
 
 .description svg, .description g, .description path{
