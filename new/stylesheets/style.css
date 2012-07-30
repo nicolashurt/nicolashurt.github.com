@@ -126,6 +126,7 @@ svg.menu_icon:hover {
 
 .description iframe{
   margin-left: 100px;
+  border: 7px solid #111;
 }
 
 .description svg, .description g, .description path{
