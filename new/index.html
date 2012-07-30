@@ -16,6 +16,9 @@
         
 		    Galleria.loadTheme('javascripts/classic/galleria.classic.min.js');
         Galleria.run('#galleria');
+        
+        $('#menu a.current').find("span").fadeTo(0,0);
+        $('#menu a.current').find("span").fadeTo(3000,1);
 		  })
 		</script>
 	</head>
