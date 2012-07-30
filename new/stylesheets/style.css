@@ -148,9 +148,16 @@ svg.menu_icon:hover {
 
 .description svg{
   height: 80px;
-  max-width: 80px;
 }
 
+.description a {
+  text-decoration: none;
+  color: #0025A1;
+}
+
+.description a:hover {
+  text-decoration: underline;
+}
 .description svg, .description g, .description path{
   fill: #999;
 }
