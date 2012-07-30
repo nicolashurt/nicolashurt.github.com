@@ -69,13 +69,17 @@ h1 a{
   color: #aaa;
 }
 
-#menu .menu_icon {
+svg.menu_icon {
   margin-left: 25px;
   margin-right: 25px;
   height: 75px;
   width: 75px;
   cursor: pointer;
-  /*display: none;*/
+  fill: #aaa;
+}
+
+svg.menu_icon:hover {
+  fill: #111;
 }
 
 #menu li span {
