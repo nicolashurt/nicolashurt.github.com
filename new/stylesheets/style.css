@@ -198,6 +198,11 @@ svg.menu_icon:hover {
   filter: alpha(opacity=100);
 }
 
+#galleria{
+  width: 800px;
+  height: 520px;
+}
+
 #footer a{
   text-decoration: none;
 }

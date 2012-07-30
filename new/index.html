@@ -7,6 +7,17 @@
 		<script src="src/svg.js" data-path="src"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script src="javascripts/application.js"></script>
+		<script src="javascripts/galleria-1.2.7.min.js"></script>
+		<script>
+		  $(function(){
+		    $("#galleria").galleria({
+            autoplay: 3000 // will move forward every 7 seconds
+        });
+        
+		    Galleria.loadTheme('javascripts/classic/galleria.classic.min.js');
+        Galleria.run('#galleria');
+		  })
+		</script>
 	</head>
 	<body>
 			<div id="header">
@@ -94,10 +105,20 @@
 			  </ul>
 			</div>
 			
-			<div id="content">
-			  <div id="viewbox">
-			    <iframe src="http://player.vimeo.com/video/38886298" width="576" height="384" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			  </div>
+			<div id="content" style="width: 800px">
+			  <div id="galleria">
+            <img src="images/home/Home 1.jpg" />
+            <img src="images/home/Home 2.jpg" />
+            <img src="images/home/Home 3.jpg" />
+            <img src="images/home/Home 4b.jpg" />
+            <img src="images/home/Home 5.jpg" />
+            <img src="images/home/Home 6.jpg" />
+            <img src="images/home/Home 7b.jpg" />
+            <img src="images/home/Home 8.jpg" />
+            <img src="images/home/Home 9.jpg" />
+            <img src="images/home/Home 10b.jpg" />
+            <img src="images/home/Home 11.jpg" />
+        </div>
 			  <div id="footer">			    
   	      <div id="contact">
   	        <a href="mailto:nhurt@cmu.edu" target="_blank">
