@@ -5,11 +5,11 @@ $(function(){
       $(obj).find('g').css("fill", $(obj).data("fill"));
     });
     
-    $('#menu a:not(.current)').find("span").hide();
+    $('#menu a:not(.current)').find("span").fadeTo(0,0);
     
     $('#menu').hover(function(){
-      $('#menu a:not(.current)').find("span").fadeIn();
+      $('#menu a:not(.current)').find("span").fadeTo("slow",100);
     }, function(){
-      $('#menu a:not(.current)').find("span").fadeOut();
+      $('#menu a:not(.current)').find("span").fadeTo("fast",0);
     })
 });
