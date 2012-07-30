@@ -101,11 +101,11 @@ svg.menu_icon:hover {
 }
 
 .current span{
-  color: #444;
+  color: #333;
 }
 
 .current svg{
-  fill: #444;
+  fill: #333;
 }
 
 #menu li span {
@@ -159,5 +159,5 @@ svg.menu_icon:hover {
   text-decoration: underline;
 }
 .description svg, .description g, .description path{
-  fill: #999;
+  fill: #aaa;
 }
