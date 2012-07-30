@@ -2,12 +2,12 @@
 
 body{
 	font-family: sans-serif;
-	font-weight: 400;
-	/*background-color: #F4F4F4;*/
+	margin: 0;
 	/*background-image: url('../images/subtle_zebra_3d.png');*/
 	background-repeat: repeat-x repeat-y;
 }
 
+/*
 #wrapper{
 	background-color: white;
 	color: #111;
@@ -24,7 +24,8 @@ body{
   -webkit-box-shadow: 7px 7px 8px #ccc;
   -moz-box-shadow: 7px 7px 8px #ccc;
   */
-}
+/*}*/
+
 
 #content {
   width: 700px;
@@ -33,9 +34,9 @@ body{
 }
 
 #header {
-	display: inline-block;
 	height: 100px;
 	width: 800px;
+	margin: 0 auto;
 	font-family: 'Monoton', sans-serif;
 	color: #c00000;
 	text-align: center;
@@ -56,7 +57,13 @@ h1 a{
 }
 
 #menu {
+  padding-top: 15px;
   text-align: center;
+  background-color: #F4F4F4;
+  height: 110px;
+  box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  -moz-box-shadow: 3px 3px 3px #ccc;
 }
 
 #menu ul {
@@ -87,7 +94,7 @@ svg.menu_icon {
   margin-right: 27px;
   height: 70px;
   width: 70px;
-  fill: #aaa;
+  fill: #888;
 }
 
 svg.menu_icon:hover {
