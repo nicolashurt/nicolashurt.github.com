@@ -69,12 +69,13 @@ h1 a{
   color: #aaa;
 }
 
-#menu object{
+#menu .menu_icon {
   margin-left: 25px;
   margin-right: 25px;
   height: 75px;
   width: 75px;
   cursor: pointer;
+  /*display: none;*/
 }
 
 #menu li span {
