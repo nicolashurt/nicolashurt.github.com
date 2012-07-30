@@ -24,6 +24,12 @@ body{
   -moz-box-shadow: 7px 7px 8px #ccc;
 }
 
+#content {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
 #header {
 	display: inline-block;
 	height: 100px;
@@ -69,12 +75,16 @@ h1 a{
   color: #aaa;
 }
 
+#menu a:hover{
+  text-decoration: underline;
+  color: #000;
+}
+
 svg.menu_icon {
-  margin-left: 25px;
-  margin-right: 25px;
-  height: 75px;
-  width: 75px;
-  cursor: pointer;
+  margin-left: 27px;
+  margin-right: 27px;
+  height: 70px;
+  width: 70px;
   fill: #aaa;
 }
 
@@ -85,6 +95,7 @@ svg.menu_icon:hover {
 #menu li span {
   display: block;
   margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #viewbox {
@@ -92,4 +103,27 @@ svg.menu_icon:hover {
   height: 384px;
   border: 7px solid #111;
   margin: 40px auto;
+}
+
+.description h2{
+  font-family: 'Poiret One', sans-serif;
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+.description p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+.description div{
+  float: left;
+  position: relative;
+  width: 80px;
+  text-align: center;
+}
+
+.description svg, .description g, .description path{
+  /*fill: #aaa;*/
 }
