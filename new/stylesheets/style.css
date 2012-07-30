@@ -124,8 +124,9 @@ svg.menu_icon:hover {
 
 .description h2{
   font-family: 'Poiret One', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 100px;
+  margin-bottom: 20px;
 }
 
 .description p {
