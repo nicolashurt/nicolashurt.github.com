@@ -17,10 +17,19 @@
 		    Galleria.loadTheme('javascripts/classic/galleria.classic.min.js');
         Galleria.run('#galleria');
         
+        $('#header').fadeTo(0,0);
+        $('#menu').fadeTo(0,0);
         $('#menu a.current').find("span").fadeTo(0,0);
-        setTimeout(function(){
-          $('#menu a.current').find("span").fadeTo(3000,1);
-        }, 2000);
+        $('#content').fadeTo(0,0);
+        
+        $('#header').fadeTo(2000,100, function(){
+          $('#content').fadeTo(500,1);
+          $('#menu').fadeTo(1000, 1, function(){
+            setTimeout(function(){
+              $('#menu a.current').find("span").fadeTo(3000,1);
+            },2000);
+          });
+        });
 		  })
 		</script>
 	</head>
