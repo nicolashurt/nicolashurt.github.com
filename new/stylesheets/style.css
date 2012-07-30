@@ -147,7 +147,8 @@ svg.menu_icon:hover {
 }
 
 .description svg{
-  width: 90px;
+  height: 80px;
+  max-width: 80px;
 }
 
 .description svg, .description g, .description path{
