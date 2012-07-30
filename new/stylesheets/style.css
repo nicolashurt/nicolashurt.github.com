@@ -3,7 +3,7 @@
 body{
 	font-family: sans-serif;
 	font-weight: 400;
-	background-color: #F4F4F4;
+	/*background-color: #F4F4F4;*/
 	/*background-image: url('../images/subtle_zebra_3d.png');*/
 	background-repeat: repeat-x repeat-y;
 }
@@ -17,11 +17,13 @@ body{
 	min-height: 600px;
 	padding: 20px;
 	
+	/*
 	border: 1px solid #eee;
 		
 	box-shadow: 7px 7px 8px #ccc;
   -webkit-box-shadow: 7px 7px 8px #ccc;
   -moz-box-shadow: 7px 7px 8px #ccc;
+  */
 }
 
 #content {
@@ -92,6 +94,14 @@ svg.menu_icon:hover {
   fill: #111;
 }
 
+.current span{
+  color: #444;
+}
+
+.current svg{
+  fill: #444;
+}
+
 #menu li span {
   display: block;
   margin-top: 5px;
@@ -130,5 +140,5 @@ svg.menu_icon:hover {
 }
 
 .description svg, .description g, .description path{
-  /*fill: #aaa;*/
+  fill: #999;
 }
