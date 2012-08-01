@@ -59,7 +59,7 @@ h1 a{
   padding-top: 10px;
   text-align: center;
   height: 115px;
-  
+  min-width: 768px;
   background-color: #F4F4F4;
   box-shadow: 3px 3px 3px #ccc;
   -webkit-box-shadow: 3px 3px 3px #ccc;
