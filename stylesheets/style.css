@@ -34,7 +34,7 @@ body{
 
 #header {
 	height: 100px;
-	width: 800px;
+  min-width: 768px;
 	margin: 20px auto;
 	font-family: 'Poiret One', sans-serif;
 	color: #c00000;
@@ -60,8 +60,6 @@ h1 a{
   text-align: center;
   height: 115px;
   
-  min-width: 800px;
-  
   background-color: #F4F4F4;
   box-shadow: 3px 3px 3px #ccc;
   -webkit-box-shadow: 3px 3px 3px #ccc;
@@ -76,7 +74,7 @@ h1 a{
 	list-style: none;
 	line-height: normal;
 	height: 96px;
-  min-width: 800px;
+  min-width: 768px;
 }
 
 #menu li {

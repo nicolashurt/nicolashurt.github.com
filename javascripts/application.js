@@ -1,4 +1,7 @@
 $(function(){  
+    //$('svg.menu_icon').first().css("margin-left", 0);
+  //$('svg.menu_icon').last().css("margin-right", 0);
+    
     $('.description').each(function(ind, obj){
       $(obj).find('svg').css("fill", $(obj).data("fill"));
       $(obj).find('path').css("fill", $(obj).data("fill"));
