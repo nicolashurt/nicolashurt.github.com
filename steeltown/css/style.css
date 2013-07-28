@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background: black url('../img/home.png') no-repeat center top;
+    background: black url('../img/home.jpg') no-repeat center top;
     background-size: 1200px 515px;
     font-family: 'News Cycle', sans-serif;
     color: #EEEFF2;
