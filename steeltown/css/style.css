@@ -23,7 +23,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border-bottom: 2px solid #EEEFF2;
-    width: 450px;
+    width: 500px;
 }
 
 #title span {
@@ -33,7 +33,7 @@ h1 {
 
 #nav {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 165px;
     font-family: 'Pathway Gothic One', sans-serif;
 }
 
@@ -71,14 +71,14 @@ a:hover {
 
 #content {
     width: 674px;
-    height: 374px;
+    height: 424px;
     margin: 0 auto;
     text-shadow: 1px 1px 15px black;
     font-size: 12px;
 }
 
 #content .inner {
-    height: 300px;
+    height: 370px;
     overflow-y:scroll;
     line-height: 25px;
     padding-right: 10px;
@@ -94,7 +94,9 @@ a:hover {
 }
 
 #content h2 {
+    margin-top: 0;
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 #content p {
@@ -106,7 +108,7 @@ a:hover {
 }
 
 .smaller h1{
-    margin-top: 10px;
+    margin-top: 0;
     font-size: 60px;
     width: 300px;
 }
@@ -153,6 +155,7 @@ a:hover {
     left: 0;
     top: 5px;
     margin-right: 10px;
+    width: 220px;
 }
 
 .crew .name a {
@@ -163,7 +166,7 @@ a:hover {
 
 .crew p {
     position: relative;
-    padding-left: 260px;
+    padding-left: 230px;
     margin-bottom: 40px;
     font-size: 14px;
 }
