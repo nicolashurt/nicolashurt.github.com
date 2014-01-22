@@ -22,6 +22,10 @@ body {
     color: #EEEFF2;
 }
 
+.noshow {
+    display: none;
+}
+
 #title {
     text-align: center;
 }
@@ -35,7 +39,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border-bottom: 2px solid #EEEFF2;
-    width: 500px;
+    max-width: 650px;
 }
 
 #title span {
@@ -95,10 +99,11 @@ a:hover {
 
 #content {
     width: 674px;
-    height: 424px;
+    max-height: 424px;
     margin: 0 auto;
     text-shadow: 1px 1px 15px black;
     font-size: 12px;
+    margin-top: 15px;
 }
 
 #content .inner {
