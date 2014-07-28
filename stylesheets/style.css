@@ -162,7 +162,7 @@ svg.menu_icon:hover {
   border: 7px solid #000000;
 }
 
-.description svg{
+.description svg, .description img{
   height: 80px;
 }
 
